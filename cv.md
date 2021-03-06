@@ -5,15 +5,14 @@
 5.  **Code example** :
 ```
 <ul>
- <li><a href="">Биатлон</a></li>
- <li><a href="">Футбол</a></li>
- <li><a href="">Стрельба из лука</a></li>
- <li><a href="">Прыжки в длинну</a></li>
- <li><a href="">Прыжки в высоту</a></li>
- <li><a href="">Фигурное катание</a></li>
- <li><a href="">Синхронное плавание</a></li>
- <li><a href="">Шахматы</a></li>
- <li><a href="">Шашки</a></li>
+ <li><a href="">Fire</a></li>
+ <li><a href="">Masha</a></li>
+ <li><a href="">Sugar</a></li>
+ <li><a href="">Jump</a></li>
+ <li><a href="">Basketball</a></li>
+ <li><a href="">Driving</a></li>
+ <li><a href="">Swimming</a></li>
+ <li><a href="">Chess</a></li>
 </ul>
 ```
 6.  **Work experience**:
