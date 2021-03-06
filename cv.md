@@ -16,4 +16,8 @@
  <li><a href="">Шашки</a></li>
 </ul>
 ```
+6.  **Work experience**:
+7.  **Education**: Online courses IT-academy "Website development with HTML, CSS, JavaScript", "Web applications development on JavaScript";
+8.  **English level**: A2;
+
 
