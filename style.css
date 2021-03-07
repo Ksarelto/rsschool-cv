@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, sans-serif;
+    font-family: 'RocknRoll One', sans-serif;
 }
 main {
     width: 600px;
@@ -10,7 +10,16 @@ section {
     width: 100%;
 }
 mark {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding: 1px;
     background-color: #b0b7d0;
+}
+summary{
+    padding-left: 25px;
+    margin-top: 20px;
+    cursor: pointer;
 }
 h3 {
     position: relative;
@@ -29,7 +38,7 @@ h3:before {
     background-color: #fcbf00;
 }
 .right-column {
-    flex: 0 1 250px;
+    flex: 0 1 260px;
     color: #d9dce3;
 }
 .right-column figcaption {
@@ -54,7 +63,7 @@ h3:before {
     margin-bottom: 20px;
 }
 .right-column img {
-    width: 250px;
+    width: 260px;
     height: 300px;
 }
 .right-column article:first-of-type p,
@@ -63,13 +72,14 @@ h3:before {
     margin-left: 25px;
 }
 .right-column article:nth-of-type(2) {
+    min-height: 175px;
     background-color: #2c323e;
     padding: 35px 0px 5px;
 }
 .right-column article:nth-of-type(2) p,
 .right-column article:last-of-type p {
-    width: 200px;
-    font-size: 1.2rem;
+    width: 230px;
+    font-size: 1rem;
     margin-left: 25px;
     margin-bottom: 15px;
     margin-top: 10px;
@@ -95,7 +105,6 @@ h3:before {
     background-color: #ebebeb;
 }
 .left-column article p,
-.left-column article code,
 .left-column article ul {
     font-size: 1.2rem;
     line-height: 20px;
@@ -103,6 +112,10 @@ h3:before {
 }
 .left-column article ul {
     column-count: 3;
+}
+.left-column article code{
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
 }
 .left-column article ul li {
     margin-bottom: 10px;

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -24,15 +26,21 @@
                         <li>Email address</li>
                         <li>ksarelto@tut.by</li>
                     </ul>
-                    <p>Adress</p>
+                    <p>Address</p>
                     <address>
                         Belarus, Borisov, Serebrennikova 20-61, 22225
                     </address>
                 </article>
                 <article>
                     <h3>Education</h3>
-                    <p><mark>Online IT-academy course</mark> "Website development with HTML, CSS, JavaScript" </p>
-                    <p><mark>Online IT-academy course</mark> "Web applications development on JavaScript"</p>
+                   <details>
+                        <summary>Online IT-academy course</summary>
+                        <p>"Website development with HTML, CSS, JavaScript" </p>
+                    </details>
+                    <details>
+                        <summary>Online IT-academy course</summary>
+                        <p>"Web applications development on JavaScript"</p>
+                    </details>
                 </article>
                 <article>
                     <h3>English level</h3>
@@ -40,8 +48,10 @@
                 </article>
             </div>
             <div class="left-column">
-                <h1>Artsiom Murashko</h1>
-                <p>Front-end developer</p>
+                <header>
+                    <h1>Artsiom Murashko</h1>
+                    <p>Front-end-developer</p>
+                </header>
                 <article>
                     <h3>Objective</h3>
                     <p>I want to become a highly qualified frontend developer, and then a full-stack developer.
@@ -49,17 +59,20 @@
                         I really like the development process , I learn quickly.</p>
                 </article>
                 <article>
-                    <h3>Expirience</h3>
+                    <h3>Experience</h3>
                     <p>I have no expirience yet</p>
                 </article>
                 <article>
                     <h3>Code example</h3>
                     <pre>
                         <code>
-                function showAlert(){
-                    alert('Hello');
-                } 
-                showAlert();
+             function str01(val, len){
+                 var strVal = val.toString();
+                 while(strVal.length < len){
+                     trVal = '0' + strVal;
+                 }
+                 return strVal;
+             }
                          </code>
                     </pre>
                 </article>
