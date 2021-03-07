@@ -63,7 +63,7 @@ h3:before {
     margin-bottom: 20px;
 }
 .right-column img {
-    width: 250px;
+    width: 260px;
     height: 300px;
 }
 .right-column article:first-of-type p,
@@ -72,13 +72,14 @@ h3:before {
     margin-left: 25px;
 }
 .right-column article:nth-of-type(2) {
+    min-height: 160px;
     background-color: #2c323e;
     padding: 35px 0px 5px;
 }
 .right-column article:nth-of-type(2) p,
 .right-column article:last-of-type p {
     width: 200px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: 25px;
     margin-bottom: 15px;
     margin-top: 10px;
