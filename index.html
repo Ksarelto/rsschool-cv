@@ -66,10 +66,13 @@
                     <h3>Code example</h3>
                     <pre>
                         <code>
-                function showAlert(){
-                    alert('Hello');
-                } 
-                showAlert();
+             function str01(val, len){
+                 var strVal = val.toString();
+                 while(strVal.length < len){
+                     trVal = '0' + strVal;
+                 }
+                 return strVal;
+             }
                          </code>
                     </pre>
                 </article>
